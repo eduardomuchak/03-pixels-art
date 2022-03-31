@@ -14,8 +14,6 @@ body {
   background-color: white;
   border-radius: 10px;
   padding: 15px;
-  width: auto;
-  margin: auto;
   box-shadow: 3px 3px 10px rgb(46, 41, 41);
 }
 
@@ -114,5 +112,13 @@ footer {
   border-radius: 20px;
   width: 150px;
   height: 24px;
+}
+
+.main-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 97vh;
 }
 
