@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Pixels Art</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1 id='title'>Paleta de Cores</h1>
+    <section id="backgroundBlock">
+      <section id='color-palette'>
+        <div id="color1" class='color black selected'></div>
+        <div id="color2" class='color'></div>
+        <div id="color3" class='color'></div>
+        <div id="color4" class='color'></div>
+      </section>
+      <section class="buttons">
+        <button class="button" id="changeColor">Cores aleatórias</button>
+        <button id="clear-board" class='clearBoard button'>Limpar</button>
+      </section>
+      <section class="buttons">
+        <p>Escolha um número de pixels para desenhar:</p>
+        <input type="number" name="board-size" id="board-size" class="inputNumber"  min="1" max="50">
+        <button id="generate-board" class="button">VQV</button>
+      </section>
+      <section id='pixel-board'>
+        <div class='pixelsLine'>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+        </div>
+        <div class='pixelsLine'>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+        </div>
+        <div class='pixelsLine'>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+        </div>
+        <div class='pixelsLine'>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+        </div>
+        <div class='pixelsLine'>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+          <div class='pixel'></div>
+        </div>
+      </section>
+    </section>
+    <footer>Projeto Pixels Art desenvolvido por Eduardo Muchak</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+main {
+  max-width: 980px;
+  margin: auto;
+  font-size: 16pt;
+  line-height: 30px;
+  font-family: -apple-system, Segoe UI, Roboto, Cantarell, Open Sans, sans-serif;
+}
+
+body {
+  background-color: rgb(35, 195, 155);   
+}
+
+#backgroundBlock {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: auto;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgb(46, 41, 41);
+}
+
+#title {
+  text-align: center;
+  text-shadow: 3px 3px 10px rgb(46, 41, 41);
+  color: white;
+}
+
+#color-palette {
+  width: 100%;
+  text-align: center;
+  height: 90px;
+}
+
+.buttons {
+  text-align: center;
+  margin: 10px;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 2px;;
+  font-family: -apple-system, Segoe UI, Roboto, Cantarell, Open Sans, sans-serif;
+  font-size: 14pt;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  font-weight: 800;
+}
+
+.color {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+#pixel-board {
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.pixelsLine {
+  display: flex;
+  justify-content: center;
+}
+
+.pixel {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+#color1 {
+  color: black;
+  background-color: black;
+}
+
+#color2 {
+  background-color: red;
+}
+
+#color3 {
+  background-color: green;
+}
+
+#color4 {
+  background-color: blue;
+}
+
+.button {
+  border-radius: 20px;
+  width: 150px;
+  height: 30px;
+  background-color: rgb(22, 99, 200);
+  border-color: rgb(22, 99, 200);
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.button:hover {
+  background-color: rgb(16, 70, 141);
+}
+
+.inputNumber {
+  border-radius: 20px;
+  width: 150px;
+  height: 24px;
+}
+
